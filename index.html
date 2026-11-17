@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corvit Systems Peshawar | IT Training, Networking, Cybersecurity and Cloud</title>
+<meta name="description" content="Industry-recognised IT courses in Peshawar: Cisco CCNA/CCNP, cybersecurity, AWS/Azure, full-stack and AI development, data science and freelancing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: {
+  colors: { navy: { 900: "#071632", 800: "#0A1F44", 700: "#12306B" }, royal: "#1D4ED8", cyan: { 400: "#22D3EE" } },
+  fontFamily: { display: ["Sora", "sans-serif"], sans: ["Figtree", "system-ui", "sans-serif"], mono: ["JetBrains Mono", "monospace"] }
+}}};
+</script>
+<style>
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  :focus-visible { outline: 3px solid #22D3EE; outline-offset: 2px; }
+  #drawer { transform: translateY(1.5rem); opacity: 0; visibility: hidden; transition: transform .25s, opacity .25s, visibility .25s; }
+  #drawer.open { transform: none; opacity: 1; visibility: visible; }
+  .bot p + p, .bot ul, .bot ol { margin-top: .5rem; }
+  .bot ul { list-style: disc; padding-left: 1.2rem; }
+  .bot ol { list-style: decimal; padding-left: 1.3rem; }
+  .bot code { background: #E2E8F0; padding: 0 .3rem; border-radius: 4px; font-family: "JetBrains Mono", monospace; font-size: .85em; }
+  .bot a { color: #1D4ED8; text-decoration: underline; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: #64748B; display: inline-block; animation: bounce 1.2s infinite; }
+  .dot:nth-child(2) { animation-delay: .15s; } .dot:nth-child(3) { animation-delay: .3s; }
+  @keyframes bounce { 0%, 60%, 100% { transform: translateY(0); opacity: .5; } 30% { transform: translateY(-5px); opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .dot { animation: none; } #drawer { transition: none; } }
+</style>
+</head>
+<body class="bg-white text-slate-700 font-sans antialiased">
+
+<header class="sticky top-0 z-40 bg-navy-800/95 backdrop-blur border-b border-white/10">
+  <nav class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between" aria-label="Main">
+    <a href="#top" class="font-display font-bold text-white text-lg">Corvit Systems <span class="text-cyan-400">Peshawar</span></a>
+    <div class="hidden md:flex items-center gap-7 text-sm text-slate-200">
+      <a class="hover:text-cyan-400" href="#courses">Courses</a>
+      <a class="hover:text-cyan-400" href="#about">About</a>
+      <a class="hover:text-cyan-400" href="#admissions">Admissions</a>
+      <a class="hover:text-cyan-400" href="#contact">Contact</a>
+    </div>
+    <button data-open-chat class="bg-cyan-400 text-navy-900 font-semibold text-sm px-4 py-2 rounded-md hover:bg-white transition-colors">Chat with AI Advisor</button>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="bg-navy-800 text-white">
+    <div class="max-w-6xl mx-auto px-5 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="font-display font-extrabold text-4xl md:text-5xl leading-tight" style="text-wrap:balance">Launch your IT career in Peshawar with certifications employers recognise.</h1>
+        <p class="mt-5 text-lg text-slate-300 max-w-lg">Train on real routers, firewalls and cloud labs with certified instructors, then sit the exams that open doors in Pakistan and abroad.</p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#courses" class="bg-royal hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-md transition-colors">Explore Courses</a>
+          <button data-open-chat class="border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-navy-900 font-semibold px-6 py-3 rounded-md transition-colors">Ask AI Course Advisor</button>
+        </div>
+      </div>
+      <div class="rounded-lg bg-navy-900 border border-white/10 shadow-2xl overflow-hidden" aria-hidden="true">
+        <div class="flex items-center gap-2 px-4 py-2.5 bg-navy-700/60 text-xs text-slate-300 font-mono">
+          <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span> lab-rack-03 &nbsp;console
+        </div>
+        <pre class="p-5 text-sm leading-7 font-mono text-slate-200 overflow-x-auto"><span class="text-cyan-400">PESH-R1#</span> show ip ospf neighbor
+Neighbor ID   State      Interface
+10.0.0.2      FULL/DR    Gi0/1
+10.0.0.3      FULL/BDR   Gi0/2
+<span class="text-cyan-400">PESH-R1#</span> ping 10.20.0.1
+<span class="text-emerald-400">!!!!!</span> Success rate is 100 percent
+<span class="text-cyan-400">PESH-R1#</span> <span class="text-slate-400">your first lab starts here</span></pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="courses" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-5">
+      <h2 class="font-display font-bold text-3xl text-navy-800">Featured courses</h2>
+      <p class="mt-3 max-w-xl">Pick a track, or ask the AI Advisor which one fits your background and goals.</p>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="course-grid"></div>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 bg-slate-100">
+    <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-3 gap-12">
+      <div>
+        <h2 class="font-display font-bold text-3xl text-navy-800">Why choose Corvit Peshawar</h2>
+        <p class="mt-3">Practical training built around what employers test for and what certification exams ask.</p>
+      </div>
+      <dl class="md:col-span-2 grid sm:grid-cols-2 gap-x-10 gap-y-8">
+        <div class="border-l-4 border-royal pl-4"><dt class="font-semibold text-navy-800">Hands-on labs</dt><dd class="mt-1">Configure real network gear, security tools and cloud accounts in every class.</dd></div>
+        <div class="border-l-4 border-royal pl-4"><dt class="font-semibold text-navy-800">Certified instructors</dt><dd class="mt-1">Learn from trainers who hold the certifications they teach and work on live projects.</dd></div>
+        <div class="border-l-4 border-royal pl-4"><dt class="font-semibold text-navy-800">Career counseling</dt><dd class="mt-1">Get CV reviews, interview practice and guidance on jobs and freelancing.</dd></div>
+        <div class="border-l-4 border-royal pl-4"><dt class="font-semibold text-navy-800">Global certification prep</dt><dd class="mt-1">Prepare for Cisco, AWS, Microsoft, CompTIA and EC-Council exams with practice tests.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="advisor" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-5">
+      <div class="rounded-lg bg-navy-800 text-white p-8 md:p-12 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="font-display font-bold text-3xl">Ask the AI Advisor about fees, timings and admission</h2>
+          <p class="mt-3 text-slate-300">Get answers on course outlines, schedules and how to apply, any time of day.</p>
+          <button data-open-chat class="mt-6 bg-cyan-400 text-navy-900 font-semibold px-6 py-3 rounded-md hover:bg-white transition-colors">Start a chat</button>
+        </div>
+        <div class="flex flex-wrap gap-2" id="section-chips"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="admissions" class="py-20 bg-slate-100">
+    <div class="max-w-6xl mx-auto px-5">
+      <h2 class="font-display font-bold text-3xl text-navy-800">How to get admission</h2>
+      <ol class="mt-10 grid md:grid-cols-4 gap-6">
+        <li class="bg-white rounded-md p-5 border border-slate-200"><span class="font-display font-bold text-royal text-2xl">1</span><h3 class="mt-2 font-semibold text-navy-800">Choose a track</h3><p class="mt-1 text-sm">Compare courses or ask the AI Advisor for a recommendation.</p></li>
+        <li class="bg-white rounded-md p-5 border border-slate-200"><span class="font-display font-bold text-royal text-2xl">2</span><h3 class="mt-2 font-semibold text-navy-800">Meet a counselor</h3><p class="mt-1 text-sm">Visit the campus or call to confirm your level and batch.</p></li>
+        <li class="bg-white rounded-md p-5 border border-slate-200"><span class="font-display font-bold text-royal text-2xl">3</span><h3 class="mt-2 font-semibold text-navy-800">Register and pay</h3><p class="mt-1 text-sm">Submit your documents and the admission fee to reserve a seat.</p></li>
+        <li class="bg-white rounded-md p-5 border border-slate-200"><span class="font-display font-bold text-royal text-2xl">4</span><h3 class="mt-2 font-semibold text-navy-800">Start your batch</h3><p class="mt-1 text-sm">Join the first lab session and get your learning portal access.</p></li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer id="contact" class="bg-navy-900 text-slate-300">
+  <div class="max-w-6xl mx-auto px-5 py-14 grid md:grid-cols-3 gap-10 text-sm">
+    <div>
+      <p class="font-display font-bold text-white text-lg">Corvit Systems <span class="text-cyan-400">Peshawar</span></p>
+      <p class="mt-3 max-w-xs">IT training in networking, cybersecurity, cloud and software development.</p>
+    </div>
+    <div>
+      <h3 class="font-semibold text-white">Campus</h3>
+      <address class="mt-3 not-italic leading-7">Office 12, 2nd Floor, Phase 3 Chowk<br>University Road, Peshawar, Khyber Pakhtunkhwa<br>Phone: +92 91 000 0000<br>Email: peshawar@example.com<br>Mon to Sat, 9:00 AM to 7:00 PM</address>
+    </div>
+    <div>
+      <h3 class="font-semibold text-white">Quick links</h3>
+      <ul class="mt-3 leading-7">
+        <li><a class="hover:text-cyan-400" href="#courses">Courses</a></li>
+        <li><a class="hover:text-cyan-400" href="#about">Why Corvit</a></li>
+        <li><a class="hover:text-cyan-400" href="#admissions">Admissions</a></li>
+        <li><button data-open-chat class="hover:text-cyan-400">Chat with AI Advisor</button></li>
+      </ul>
+    </div>
+  </div>
+  <p class="border-t border-white/10 text-center text-xs py-5">&copy; <span id="year"></span> Corvit Systems Peshawar. All rights reserved.</p>
+</footer>
+
+<button id="fab" data-open-chat aria-label="Open AI Advisor chat" class="fixed bottom-5 right-5 z-40 bg-royal hover:bg-blue-600 text-white rounded-full w-14 h-14 shadow-xl flex items-center justify-center transition-colors">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+</button>
+
+<aside id="drawer" role="dialog" aria-label="Corvit Peshawar AI Advisor" class="fixed z-50 bottom-0 right-0 sm:bottom-5 sm:right-5 w-full sm:w-[400px] h-[85vh] sm:h-[600px] max-h-screen bg-white sm:rounded-lg shadow-2xl border border-slate-200 flex flex-col overflow-hidden">
+  <div class="bg-navy-800 text-white px-4 py-3 flex items-center justify-between">
+    <div><p class="font-display font-bold leading-tight">Corvit Peshawar AI Advisor</p><p class="text-xs text-slate-300">Courses, fees, timings and admission</p></div>
+    <div class="flex items-center gap-1">
+      <button id="reset" class="text-xs border border-white/30 rounded px-2 py-1 hover:bg-white/10">New chat</button>
+      <button id="close" aria-label="Close chat" class="w-8 h-8 text-xl leading-none hover:bg-white/10 rounded">&times;</button>
+    </div>
+  </div>
+  <div id="messages" class="flex-1 overflow-y-auto bg-slate-100 p-4 space-y-3 text-sm" aria-live="polite"></div>
+  <div id="chips" class="px-4 py-2 bg-slate-100 flex flex-wrap gap-2 border-t border-slate-200"></div>
+  <form id="form" class="p-3 bg-white border-t border-slate-200 flex gap-2">
+    <label for="input" class="sr-only">Your message</label>
+    <input id="input" type="text" autocomplete="off" maxlength="1000" placeholder="Type your question" class="flex-1 border border-slate-300 rounded-md px-3 py-2 text-sm focus:border-royal">
+    <button id="send" type="submit" class="bg-royal text-white font-semibold text-sm px-4 rounded-md hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed">Send</button>
+  </form>
+</aside>
+
+<script>
+const COURSES = [
+  ["Cisco Networking CCNA / CCNP", "Routing, switching, OSPF, VLANs and enterprise network design on real Cisco labs.", "Tell me about the Cisco CCNA and CCNP networking courses: outline, duration and fees."],
+  ["Cyber Security and Ethical Hacking", "Penetration testing, SOC fundamentals, network defense and CEH preparation.", "Tell me about the Cyber Security and Ethical Hacking course: outline, duration and fees."],
+  ["Cloud Computing AWS / Azure", "Compute, storage, networking, IAM and DevOps basics, with associate-level exam prep.", "Tell me about the AWS and Azure Cloud Computing course: outline, duration and fees."],
+  ["Full-Stack Web and AI Development", "HTML, JavaScript, React, Node.js, databases and building apps with AI APIs.", "Tell me about the Full-Stack Web and AI Development course: outline, duration and fees."],
+  ["Data Science and Python", "Python, pandas, visualization, statistics and machine learning projects.", "Tell me about the Data Science and Python course: outline, duration and fees."],
+  ["Digital Marketing and Freelancing", "SEO, social ads, content and winning clients on Upwork and Fiverr.", "Tell me about the Digital Marketing and Freelancing course: outline, duration and fees."]
+];
+const CHIPS = ["What courses do you offer?", "Tell me about CCNA & Networking", "How do I apply for admission?", "What are class timings?"];
+const $ = (id) => document.getElementById(id);
+const drawer = $("drawer"), box = $("messages"), input = $("input"), sendBtn = $("send");
+let loading = false;
+
+const store = {
+  get(k) { try { return sessionStorage.getItem(k); } catch { return null; } },
+  set(k, v) { try { sessionStorage.setItem(k, v); } catch {} },
+  del(k) { try { sessionStorage.removeItem(k); } catch {} }
+};
+let convId = store.get("corvit_conversation_id") || "";
+let userId = store.get("corvit_user_id");
+if (!userId) { userId = "corvit-" + Math.random().toString(36).slice(2, 10); store.set("corvit_user_id", userId); }
+
+$("year").textContent = new Date().getFullYear();
+$("course-grid").innerHTML = COURSES.map(([t, d, q]) => `
+  <article class="bg-white border border-slate-200 rounded-md p-6 flex flex-col hover:border-royal transition-colors">
+    <h3 class="font-display font-bold text-navy-800 text-lg">${t}</h3>
+    <p class="mt-2 text-sm flex-1">${d}</p>
+    <button data-ask="${q}" class="mt-5 self-start text-sm font-semibold text-royal border border-royal rounded-md px-4 py-2 hover:bg-royal hover:text-white transition-colors">Ask AI about this course</button>
+  </article>`).join("");
+
+const chipHtml = (cls) => CHIPS.map((c) => `<button type="button" data-chip="${c}" class="${cls}">${c}</button>`).join("");
+$("section-chips").innerHTML = chipHtml("text-sm border border-cyan-400/60 text-cyan-400 rounded-full px-4 py-2 hover:bg-cyan-400 hover:text-navy-900 transition-colors");
+
+const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const inline = (t) => t
+  .replace(/`([^`]+)`/g, "<code>$1</code>")
+  .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+  .replace(/(^|[\s(])\*([^*\n]+)\*/g, "$1<em>$2</em>")
+  .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+
+function md(src) {
+  let out = "", list = null, para = [];
+  const flushP = () => { if (para.length) { out += "<p>" + para.join("<br>") + "</p>"; para = []; } };
+  const closeL = () => { if (list) { out += `</${list}>`; list = null; } };
+  for (const raw of esc(src).split("\n")) {
+    const l = raw.trim(); let m;
+    if ((m = l.match(/^[-*\u2022]\s+(.*)/))) { flushP(); if (list !== "ul") { closeL(); out += "<ul>"; list = "ul"; } out += "<li>" + inline(m[1]) + "</li>"; }
+    else if ((m = l.match(/^\d+[.)]\s+(.*)/))) { flushP(); if (list !== "ol") { closeL(); out += "<ol>"; list = "ol"; } out += "<li>" + inline(m[1]) + "</li>"; }
+    else if ((m = l.match(/^#{1,4}\s+(.*)/))) { flushP(); closeL(); out += "<p><strong>" + inline(m[1]) + "</strong></p>"; }
+    else if (!l) { flushP(); closeL(); }
+    else { closeL(); para.push(inline(l)); }
+  }
+  flushP(); closeL();
+  return out;
+}
+
+function addMsg(text, who, isError) {
+  const el = document.createElement("div");
+  el.className = who === "user" ? "flex justify-end" : "flex";
+  const bubble = document.createElement("div");
+  bubble.className = who === "user"
+    ? "bg-royal text-white rounded-lg rounded-br-sm px-3 py-2 max-w-[85%] whitespace-pre-wrap break-words"
+    : "bot rounded-lg rounded-bl-sm px-3 py-2 max-w-[85%] break-words " + (isError ? "bg-red-50 text-red-800 border border-red-200" : "bg-white text-slate-800 border border-slate-200");
+  if (who === "user") bubble.textContent = text; else bubble.innerHTML = md(text);
+  el.appendChild(bubble); box.appendChild(el); box.scrollTop = box.scrollHeight;
+  return el;
+}
+
+function welcome() {
+  box.innerHTML = "";
+  addMsg("Assalam o Alaikum! I'm the **Corvit Peshawar AI Advisor**. I can help with courses, fees, schedules and admission. What would you like to know?", "bot");
+  $("chips").innerHTML = chipHtml("text-xs border border-royal text-royal rounded-full px-3 py-1.5 hover:bg-royal hover:text-white transition-colors");
+  $("chips").classList.remove("hidden");
+}
+
+function setLoading(on) { loading = on; sendBtn.disabled = on; input.disabled = on; }
+
+async function send(text) {
+  text = text.trim();
+  if (!text || loading) return;
+  $("chips").classList.add("hidden");
+  addMsg(text, "user"); input.value = ""; setLoading(true);
+  const typing = document.createElement("div");
+  typing.className = "flex";
+  typing.innerHTML = '<div class="bg-white border border-slate-200 rounded-lg px-3 py-3 flex gap-1" aria-label="Advisor is typing"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>';
+  box.appendChild(typing); box.scrollTop = box.scrollHeight;
+  try {
+    const res = await fetch("/.netlify/functions/chat", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: text, conversation_id: convId, user: userId })
+    });
+    let data = {};
+    try { data = await res.json(); } catch {}
+    if (!res.ok) throw new Error(data.error || `Request failed (HTTP ${res.status}).`);
+    if (data.conversation_id) { convId = data.conversation_id; store.set("corvit_conversation_id", convId); }
+    typing.remove();
+    addMsg(data.answer || "I couldn't generate a reply. Please try again.", "bot");
+  } catch (err) {
+    typing.remove();
+    addMsg("Sorry, the advisor is unavailable right now. " + err.message + " Please try again or call the campus.", "bot", true);
+  } finally { setLoading(false); input.focus(); }
+}
+
+function openChat(question) {
+  drawer.classList.add("open"); $("fab").classList.add("hidden");
+  if (!box.children.length) welcome();
+  if (question) send(question); else input.focus();
+}
+function closeChat() { drawer.classList.remove("open"); $("fab").classList.remove("hidden"); }
+
+document.addEventListener("click", (e) => {
+  const open = e.target.closest("[data-open-chat]"), ask = e.target.closest("[data-ask]"), chip = e.target.closest("[data-chip]");
+  if (ask) openChat(ask.dataset.ask);
+  else if (chip) { if (!drawer.classList.contains("open")) { openChat(chip.dataset.chip); } else send(chip.dataset.chip); }
+  else if (open) openChat();
+});
+$("close").addEventListener("click", closeChat);
+$("reset").addEventListener("click", () => { convId = ""; store.del("corvit_conversation_id"); welcome(); input.focus(); });
+$("form").addEventListener("submit", (e) => { e.preventDefault(); send(input.value); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && drawer.classList.contains("open")) closeChat(); });
+</script>
+</body>
+</html>
